@@ -4,7 +4,7 @@
 		module="scalatags_sjs0.6_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160628193113"
+		publication="20160629145348"
 	>
 		<description>
 		scalatags
@@ -37,8 +37,10 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.eclipse.jetty" name="jetty-websocket" rev="8.1.16.v20140903" conf="phantom-js-jetty->default(compile)"/>
 		<dependency org="org.eclipse.jetty" name="jetty-server" rev="8.1.16.v20140903" conf="phantom-js-jetty->default(compile)"/>
+		<dependency org="org.webjars" name="jquery" rev="2.1.4" conf="compile->default(compile)"/>
 		<dependency org="org.scala-js" name="scalajs-compiler_2.11.8" rev="0.6.9" conf="plugin->default(compile)"/>
 		<dependency org="org.scala-js" name="scalajs-library_2.11" rev="0.6.9" conf="compile->default(compile)"/>
 		<dependency org="com.lihaoyi" name="scalatags_sjs0.6_2.11" rev="0.5.5" conf="compile->default(compile)"/>
+		<dependency org="be.doeraene" name="scalajs-jquery_sjs0.6_2.11" rev="0.9.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

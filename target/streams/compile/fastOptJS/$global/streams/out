@@ -1,16 +1,16 @@
 [0m[[0minfo[0m] [0mFast optimizing /home/elias/ejercicios/scalatags/target/scala-2.11/scalatags-fastopt.js[0m
-[0m[[0mdebug[0m] [0mLinker: Compute reachability: 73035 us[0m
-[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 17459 us[0m
-[0m[[0mdebug[0m] [0mBasic Linking: 91872 us[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 43361 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 17735 us[0m
+[0m[[0mdebug[0m] [0mBasic Linking: 62817 us[0m
 [0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: false[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 10268 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 39 methods.[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 12437 us[0m
-[0m[[0mdebug[0m] [0mInc. optimizer: 24315 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 35448 us[0m
-[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 3794 us[0m
-[0m[[0mdebug[0m] [0mRefiner: 39377 us[0m
-[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 302[0m
-[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 1122 -- invalidated: 26[0m
-[0m[[0mdebug[0m] [0mEmitter (write output): 40424 us[0m
-[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 5 -- invalidated: 2 -- trees read: 2[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 14806 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 0 methods.[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 100 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 17684 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 34775 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 4177 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 39124 us[0m
+[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 304[0m
+[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 1157 -- invalidated: 0[0m
+[0m[[0mdebug[0m] [0mEmitter (write output): 61621 us[0m
+[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 7 -- invalidated: 1 -- trees read: 1[0m

@@ -7,13 +7,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@98b8e5[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16e334c[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.webjars#jquery;2.1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webjars#jquery;2.1.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webjars#jquery;2.1.4[0m
+[0m[[0mdebug[0m] [0m	found org.webjars#jquery;2.1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-js#scalajs-library_2.11;0.6.9 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-js#scalajs-library_2.11;0.6.9 {compile=[default(compile)]}[0m
@@ -94,6 +102,52 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.5.5->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.lihaoyi#scalatags_sjs0.6_2.11;0.5.5->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.lihaoyi#scalatags_sjs0.6_2.11;0.5.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0[0m
+[0m[[0mdebug[0m] [0m	found be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [compile][0m
@@ -101,6 +155,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile][0m
@@ -158,6 +216,42 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.lihaoyi#scalatags_sjs0.6_2.11;0.5.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [runtime][0m
@@ -166,6 +260,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile][0m
@@ -223,6 +321,42 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.lihaoyi#scalatags_sjs0.6_2.11;0.5.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
@@ -234,6 +368,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile][0m
@@ -291,6 +429,42 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.lihaoyi#scalatags_sjs0.6_2.11;0.5.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -301,6 +475,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile][0m
@@ -358,6 +536,42 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.lihaoyi#scalatags_sjs0.6_2.11;0.5.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [test-internal][0m
@@ -368,6 +582,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.webjars#jquery;2.1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile][0m
@@ -425,6 +643,42 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->com.lihaoyi#scalatags_sjs0.6_2.11;0.5.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0->org.scala-js#scalajs-library_2.11;0.6.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalatags_sjs0.6_2.11;1.0->be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalatags_sjs0.6_2.11;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
@@ -652,10 +906,12 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.webjars#jquery;2.1.4!jquery.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-library_2.11;0.6.9!scalajs-library_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.lihaoyi#scalatags_sjs0.6_2.11;0.5.5!scalatags_sjs0.6_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] be.doeraene#scalajs-jquery_sjs0.6_2.11;0.9.0!scalajs-jquery_sjs0.6_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.lihaoyi#sourcecode_sjs0.6_2.11;0.1.0!sourcecode_sjs0.6_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.2!scalajs-dom_sjs0.6_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.11;0.9.0!scalajs-dom_sjs0.6_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#scalajs-compiler_2.11.8;0.6.9!scalajs-compiler_2.11.8.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
@@ -669,7 +925,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1120ms :: artifacts dl 64ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 320ms :: artifacts dl 14ms[0m
 [0m[[0mdebug[0m] [0m	report for default#scalatags_sjs0.6_2.11;1.0 compile produced in /home/elias/ejercicios/scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scalatags_sjs0.6_2.11;1.0 runtime produced in /home/elias/ejercicios/scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scalatags_sjs0.6_2.11;1.0 test produced in /home/elias/ejercicios/scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-test.xml[0m
@@ -684,5 +940,5 @@
 [0m[[0mdebug[0m] [0m	report for default#scalatags_sjs0.6_2.11;1.0 pom produced in /home/elias/ejercicios/scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scalatags_sjs0.6_2.11;1.0 scala-tool produced in /home/elias/ejercicios/scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-scala-tool.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scalatags_sjs0.6_2.11;1.0 phantom-js-jetty produced in /home/elias/ejercicios/scalatags/target/resolution-cache/reports/default-scalatags_sjs0.6_2.11-phantom-js-jetty.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1120ms resolve - 64ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (320ms resolve - 14ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

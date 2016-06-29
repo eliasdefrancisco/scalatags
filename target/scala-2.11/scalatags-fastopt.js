@@ -1058,6 +1058,10 @@ function $s_Lscalatags_generic_Aggregate$class__$$init$__Lscalatags_generic_Aggr
   var ev$7 = $$this.stringStyle$1;
   $$this.doublePixelStyle$1 = new $c_Lscalatags_JsDom$GenericPixelStylePx().init___Lscalatags_generic_StyleValue(ev$7)
 }
+function $s_Lscalatags_generic_GlobalAttrs$class__id__Lscalatags_generic_GlobalAttrs__Lscalatags_generic_Attr($$this) {
+  var this$1 = new $c_Lscalatags_generic_Util$ExtendedString().init___Lscalatags_generic_Util__T($$this, "id");
+  return this$1.nsAttr__Lscalatags_generic_Namespace__Lscalatags_generic_Attr(null)
+}
 function $is_Lscalatags_generic_Modifier(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalatags_generic_Modifier)))
 }
@@ -1993,6 +1997,115 @@ function $s_scm_ResizableArray$class__$$init$__scm_ResizableArray__V($$this) {
   var x = $$this.initialSize$6;
   $$this.array$6 = $newArrayObject($d_O.getArrayOf(), [((x > 1) ? x : 1)]);
   $$this.size0$6 = 0
+}
+/** @constructor */
+function $c_Lorg_scalajs_dom_package$() {
+  $c_O.call(this);
+  this.ApplicationCache$1 = null;
+  this.Blob$1 = null;
+  this.BlobPropertyBag$1 = null;
+  this.ClipboardEventInit$1 = null;
+  this.DOMException$1 = null;
+  this.Event$1 = null;
+  this.EventException$1 = null;
+  this.EventSource$1 = null;
+  this.FileReader$1 = null;
+  this.FormData$1 = null;
+  this.KeyboardEvent$1 = null;
+  this.MediaError$1 = null;
+  this.MutationEvent$1 = null;
+  this.MutationObserverInit$1 = null;
+  this.Node$1 = null;
+  this.NodeFilter$1 = null;
+  this.PerformanceNavigation$1 = null;
+  this.PositionError$1 = null;
+  this.Range$1 = null;
+  this.TextEvent$1 = null;
+  this.TextTrack$1 = null;
+  this.VisibilityState$1 = null;
+  this.WebSocket$1 = null;
+  this.WheelEvent$1 = null;
+  this.XMLHttpRequest$1 = null;
+  this.XPathResult$1 = null;
+  this.window$1 = null;
+  this.document$1 = null;
+  this.console$1 = null;
+  this.bitmap$0$1 = 0
+}
+$c_Lorg_scalajs_dom_package$.prototype = new $h_O();
+$c_Lorg_scalajs_dom_package$.prototype.constructor = $c_Lorg_scalajs_dom_package$;
+/** @constructor */
+function $h_Lorg_scalajs_dom_package$() {
+  /*<skip>*/
+}
+$h_Lorg_scalajs_dom_package$.prototype = $c_Lorg_scalajs_dom_package$.prototype;
+$c_Lorg_scalajs_dom_package$.prototype.init___ = (function() {
+  return this
+});
+$c_Lorg_scalajs_dom_package$.prototype.document__Lorg_scalajs_dom_raw_HTMLDocument = (function() {
+  return (((134217728 & this.bitmap$0$1) === 0) ? this.document$lzycompute__p1__Lorg_scalajs_dom_raw_HTMLDocument() : this.document$1)
+});
+$c_Lorg_scalajs_dom_package$.prototype.window__Lorg_scalajs_dom_raw_Window = (function() {
+  return (((67108864 & this.bitmap$0$1) === 0) ? this.window$lzycompute__p1__Lorg_scalajs_dom_raw_Window() : this.window$1)
+});
+$c_Lorg_scalajs_dom_package$.prototype.window$lzycompute__p1__Lorg_scalajs_dom_raw_Window = (function() {
+  if (((67108864 & this.bitmap$0$1) === 0)) {
+    this.window$1 = $g;
+    this.bitmap$0$1 = (67108864 | this.bitmap$0$1)
+  };
+  return this.window$1
+});
+$c_Lorg_scalajs_dom_package$.prototype.document$lzycompute__p1__Lorg_scalajs_dom_raw_HTMLDocument = (function() {
+  if (((134217728 & this.bitmap$0$1) === 0)) {
+    this.document$1 = this.window__Lorg_scalajs_dom_raw_Window().document;
+    this.bitmap$0$1 = (134217728 | this.bitmap$0$1)
+  };
+  return this.document$1
+});
+var $d_Lorg_scalajs_dom_package$ = new $TypeData().initClass({
+  Lorg_scalajs_dom_package$: 0
+}, false, "org.scalajs.dom.package$", {
+  Lorg_scalajs_dom_package$: 1,
+  O: 1
+});
+$c_Lorg_scalajs_dom_package$.prototype.$classData = $d_Lorg_scalajs_dom_package$;
+var $n_Lorg_scalajs_dom_package$ = (void 0);
+function $m_Lorg_scalajs_dom_package$() {
+  if ((!$n_Lorg_scalajs_dom_package$)) {
+    $n_Lorg_scalajs_dom_package$ = new $c_Lorg_scalajs_dom_package$().init___()
+  };
+  return $n_Lorg_scalajs_dom_package$
+}
+/** @constructor */
+function $c_Lorg_scalajs_jquery_package$() {
+  $c_O.call(this);
+  this.jQuery$1 = null
+}
+$c_Lorg_scalajs_jquery_package$.prototype = new $h_O();
+$c_Lorg_scalajs_jquery_package$.prototype.constructor = $c_Lorg_scalajs_jquery_package$;
+/** @constructor */
+function $h_Lorg_scalajs_jquery_package$() {
+  /*<skip>*/
+}
+$h_Lorg_scalajs_jquery_package$.prototype = $c_Lorg_scalajs_jquery_package$.prototype;
+$c_Lorg_scalajs_jquery_package$.prototype.init___ = (function() {
+  $n_Lorg_scalajs_jquery_package$ = this;
+  this.jQuery$1 = $g.jQuery;
+  return this
+});
+var $d_Lorg_scalajs_jquery_package$ = new $TypeData().initClass({
+  Lorg_scalajs_jquery_package$: 0
+}, false, "org.scalajs.jquery.package$", {
+  Lorg_scalajs_jquery_package$: 1,
+  O: 1
+});
+$c_Lorg_scalajs_jquery_package$.prototype.$classData = $d_Lorg_scalajs_jquery_package$;
+var $n_Lorg_scalajs_jquery_package$ = (void 0);
+function $m_Lorg_scalajs_jquery_package$() {
+  if ((!$n_Lorg_scalajs_jquery_package$)) {
+    $n_Lorg_scalajs_jquery_package$ = new $c_Lorg_scalajs_jquery_package$().init___()
+  };
+  return $n_Lorg_scalajs_jquery_package$
 }
 /** @constructor */
 function $c_Lscalatags_Escaping$() {
@@ -3780,36 +3893,44 @@ $h_Lmain$.prototype = $c_Lmain$.prototype;
 $c_Lmain$.prototype.init___ = (function() {
   return this
 });
+$c_Lmain$.prototype.mainJquery__V = (function() {
+  this.printHello__T__V("mainJquery");
+  var body = (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("body");
+  body.append("</br><p>--- The same thing but using JQuery for append HTML code to the body ---</p>");
+  body.append(this.htmlReturn__Lorg_scalajs_dom_raw_Node())
+});
+$c_Lmain$.prototype.htmlReturn__Lorg_scalajs_dom_raw_Node = (function() {
+  var paragraph = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().p__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalatags_JsDom$all$().id__Lscalatags_generic_Attr().$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("paragraph1", $m_Lscalatags_JsDom$all$().stringAttr$1)])).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("This is a paragraph (click and watch the console)"))])).render__Lorg_scalajs_dom_raw_Element();
+  paragraph.onclick = (function(e$2) {
+    $m_Lmain$().printHello__T__V(((("paragraph " + e$2) + " ") + $uD(e$2.timeStamp)))
+  });
+  var jsx$7 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var jsx$6 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().h1__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("A nice title"))]));
+  var jsx$5 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
+  var this$3 = $m_Lscalatags_JsDom$all$();
+  var jsx$4 = new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$3, paragraph);
+  var jsx$3 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().a__Lscalatags_generic_TypedTag());
+  var this$4 = $m_Lscalatags_JsDom$all$();
+  var this$5 = new $c_Lscalatags_generic_Util$ExtendedString().init___Lscalatags_generic_Util__T(this$4, "href");
+  var jsx$2 = jsx$3.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this$5.nsAttr__Lscalatags_generic_Namespace__Lscalatags_generic_Attr(null).$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("http://www.google.com", $m_Lscalatags_JsDom$all$().stringAttr$1)])).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().p__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Goooogle"))]))]));
+  var jsx$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().p__Lscalatags_generic_TypedTag());
+  var this$7 = $m_Lscalatags_JsDom$all$();
+  var this$8 = new $c_Lscalatags_generic_Util$ExtendedString().init___Lscalatags_generic_Util__T(this$7, "hidden");
+  var this$9 = this$8.$$outer$f;
+  var s = this$8.scalatags$generic$Util$ExtendedString$$s$f;
+  var this$10 = new $c_Lscalatags_generic_Util$ExtendedString().init___Lscalatags_generic_Util__T(this$9, s);
+  return jsx$7.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$6, jsx$5.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$4, jsx$2, jsx$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this$10.nsAttr__Lscalatags_generic_Namespace__Lscalatags_generic_Attr(null).$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair(this$8.scalatags$generic$Util$ExtendedString$$s$f, new $c_Lscalatags_JsDom$GenericAttr().init___())])).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Where is Jessica Hyde?"))]))]))])).render__Lorg_scalajs_dom_raw_Element()
+});
 $c_Lmain$.prototype.main__V = (function() {
+  this.printHello__T__V("main");
+  $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().body.appendChild(this.htmlReturn__Lorg_scalajs_dom_raw_Node());
+  this.mainJquery__V()
+});
+$c_Lmain$.prototype.printHello__T__V = (function(mes) {
+  var x = ("Hello console from " + mes);
   var this$2 = $m_s_Console$();
   var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
-  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V("Hello console\n");
-  var paragraph = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().p__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag($m_sci_Nil$()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("This is my first paragraph"))])).render__Lorg_scalajs_dom_raw_Element();
-  var jsx$8 = $g.document.body;
-  var jsx$7 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
-  var jsx$6 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().h1__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("This is my title"))]));
-  var jsx$5 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
-  var this$6 = $m_Lscalatags_JsDom$all$();
-  var jsx$4 = new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$6, paragraph);
-  var jsx$3 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().a__Lscalatags_generic_TypedTag());
-  var this$7 = $m_Lscalatags_JsDom$all$();
-  var this$8 = new $c_Lscalatags_generic_Util$ExtendedString().init___Lscalatags_generic_Util__T(this$7, "href");
-  var jsx$2 = jsx$3.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this$8.nsAttr__Lscalatags_generic_Namespace__Lscalatags_generic_Attr(null).$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("http://www.google.com", $m_Lscalatags_JsDom$all$().stringAttr$1)])).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().p__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Goooogle"))]))]));
-  var jsx$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().p__Lscalatags_generic_TypedTag());
-  var this$10 = $m_Lscalatags_JsDom$all$();
-  var this$11 = new $c_Lscalatags_generic_Util$ExtendedString().init___Lscalatags_generic_Util__T(this$10, "hidden");
-  var this$12 = this$11.$$outer$f;
-  var s = this$11.scalatags$generic$Util$ExtendedString$$s$f;
-  var this$13 = new $c_Lscalatags_generic_Util$ExtendedString().init___Lscalatags_generic_Util__T(this$12, s);
-  jsx$8.appendChild(jsx$7.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$6, jsx$5.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$4, jsx$2, jsx$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this$13.nsAttr__Lscalatags_generic_Namespace__Lscalatags_generic_Attr(null).$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair(this$11.scalatags$generic$Util$ExtendedString$$s$f, new $c_Lscalatags_JsDom$GenericAttr().init___())])).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("I am hidden"))]))]))])).render__Lorg_scalajs_dom_raw_Element());
-  paragraph.onclick = (function(e$2) {
-    var this$18 = $m_s_Console$();
-    var this$19 = $as_Ljava_io_PrintStream(this$18.outVar$2.v$1);
-    this$19.java$lang$JSConsoleBasedPrintStream$$printString__T__V("Hello\n");
-    var this$21 = $m_s_Console$();
-    var this$22 = $as_Ljava_io_PrintStream(this$21.outVar$2.v$1);
-    this$22.java$lang$JSConsoleBasedPrintStream$$printString__T__V((e$2 + "\n"))
-  })
+  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"))
 });
 $c_Lmain$.prototype.$$js$exported$meth$main__O = (function() {
   this.main__V()
@@ -3833,73 +3954,6 @@ function $m_Lmain$() {
   return $n_Lmain$
 }
 $e.main = $m_Lmain$;
-/** @constructor */
-function $c_Lmain1$() {
-  $c_O.call(this)
-}
-$c_Lmain1$.prototype = new $h_O();
-$c_Lmain1$.prototype.constructor = $c_Lmain1$;
-/** @constructor */
-function $h_Lmain1$() {
-  /*<skip>*/
-}
-$h_Lmain1$.prototype = $c_Lmain1$.prototype;
-$c_Lmain1$.prototype.init___ = (function() {
-  return this
-});
-$c_Lmain1$.prototype.main__V = (function() {
-  var this$2 = $m_s_Console$();
-  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
-  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V("Hello console\n");
-  var paragraph = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().p__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag($m_sci_Nil$()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("This is my first paragraph"))])).render__Lorg_scalajs_dom_raw_Element();
-  var jsx$8 = $g.document.body;
-  var jsx$7 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
-  var jsx$6 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().h1__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("This is my title"))]));
-  var jsx$5 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().div__Lscalatags_generic_TypedTag());
-  var this$6 = $m_Lscalatags_JsDom$all$();
-  var jsx$4 = new $c_Lscalatags_LowPriorityImplicits$bindNode().init___Lscalatags_LowPriorityImplicits__Lorg_scalajs_dom_raw_Node(this$6, paragraph);
-  var jsx$3 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().a__Lscalatags_generic_TypedTag());
-  var this$7 = $m_Lscalatags_JsDom$all$();
-  var this$8 = new $c_Lscalatags_generic_Util$ExtendedString().init___Lscalatags_generic_Util__T(this$7, "href");
-  var jsx$2 = jsx$3.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this$8.nsAttr__Lscalatags_generic_Namespace__Lscalatags_generic_Attr(null).$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("http://www.google.com", $m_Lscalatags_JsDom$all$().stringAttr$1)])).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().p__Lscalatags_generic_TypedTag()).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("Goooogle"))]))]));
-  var jsx$1 = $as_Lscalatags_JsDom$TypedTag($m_Lscalatags_JsDom$all$().p__Lscalatags_generic_TypedTag());
-  var this$10 = $m_Lscalatags_JsDom$all$();
-  var this$11 = new $c_Lscalatags_generic_Util$ExtendedString().init___Lscalatags_generic_Util__T(this$10, "hidden");
-  var this$12 = this$11.$$outer$f;
-  var s = this$11.scalatags$generic$Util$ExtendedString$$s$f;
-  var this$13 = new $c_Lscalatags_generic_Util$ExtendedString().init___Lscalatags_generic_Util__T(this$12, s);
-  jsx$8.appendChild(jsx$7.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$6, jsx$5.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$4, jsx$2, jsx$1.apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this$13.nsAttr__Lscalatags_generic_Namespace__Lscalatags_generic_Attr(null).$$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair(this$11.scalatags$generic$Util$ExtendedString$$s$f, new $c_Lscalatags_JsDom$GenericAttr().init___())])).apply__sc_Seq__Lscalatags_JsDom$TypedTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag().init___T("I am hidden"))]))]))])).render__Lorg_scalajs_dom_raw_Element());
-  paragraph.onclick = (function(e$2) {
-    var this$18 = $m_s_Console$();
-    var this$19 = $as_Ljava_io_PrintStream(this$18.outVar$2.v$1);
-    this$19.java$lang$JSConsoleBasedPrintStream$$printString__T__V("Hello\n");
-    var this$21 = $m_s_Console$();
-    var this$22 = $as_Ljava_io_PrintStream(this$21.outVar$2.v$1);
-    this$22.java$lang$JSConsoleBasedPrintStream$$printString__T__V((e$2 + "\n"))
-  })
-});
-$c_Lmain1$.prototype.$$js$exported$meth$main__O = (function() {
-  this.main__V()
-});
-$c_Lmain1$.prototype.main = (function() {
-  return this.$$js$exported$meth$main__O()
-});
-var $d_Lmain1$ = new $TypeData().initClass({
-  Lmain1$: 0
-}, false, "main1$", {
-  Lmain1$: 1,
-  O: 1,
-  sjs_js_JSApp: 1
-});
-$c_Lmain1$.prototype.$classData = $d_Lmain1$;
-var $n_Lmain1$ = (void 0);
-function $m_Lmain1$() {
-  if ((!$n_Lmain1$)) {
-    $n_Lmain1$ = new $c_Lmain1$().init___()
-  };
-  return $n_Lmain1$
-}
-$e.main1 = $m_Lmain1$;
 /** @constructor */
 function $c_Lscalatags_JsDom$GenericAttr() {
   $c_O.call(this)
@@ -11960,8 +12014,18 @@ $c_Lscalatags_JsDom$all$.prototype.a__Lscalatags_generic_TypedTag = (function() 
 $c_Lscalatags_JsDom$all$.prototype.h1__Lscalatags_generic_TypedTag = (function() {
   return (new $c_sjsr_RuntimeLong().init___I__I(128, 0).$$amp__sjsr_RuntimeLong__sjsr_RuntimeLong(this.bitmap$0$1).equals__sjsr_RuntimeLong__Z($m_sjsr_RuntimeLong$().Zero__sjsr_RuntimeLong()) ? this.h1$lzycompute__p1__Lscalatags_generic_TypedTag() : this.h1$1)
 });
+$c_Lscalatags_JsDom$all$.prototype.id$lzycompute__p1__Lscalatags_generic_Attr = (function() {
+  if (new $c_sjsr_RuntimeLong().init___I__I((-2147483648), 0).$$amp__sjsr_RuntimeLong__sjsr_RuntimeLong(this.bitmap$4$1).equals__sjsr_RuntimeLong__Z($m_sjsr_RuntimeLong$().Zero__sjsr_RuntimeLong())) {
+    this.id$1 = $s_Lscalatags_generic_GlobalAttrs$class__id__Lscalatags_generic_GlobalAttrs__Lscalatags_generic_Attr(this);
+    this.bitmap$4$1 = new $c_sjsr_RuntimeLong().init___I__I((-2147483648), 0).$$bar__sjsr_RuntimeLong__sjsr_RuntimeLong(this.bitmap$4$1)
+  };
+  return this.id$1
+});
 $c_Lscalatags_JsDom$all$.prototype.p__Lscalatags_generic_TypedTag = (function() {
   return (new $c_sjsr_RuntimeLong().init___I__I(32768, 0).$$amp__sjsr_RuntimeLong__sjsr_RuntimeLong(this.bitmap$0$1).equals__sjsr_RuntimeLong__Z($m_sjsr_RuntimeLong$().Zero__sjsr_RuntimeLong()) ? this.p$lzycompute__p1__Lscalatags_generic_TypedTag() : this.p$1)
+});
+$c_Lscalatags_JsDom$all$.prototype.div__Lscalatags_generic_TypedTag = (function() {
+  return (new $c_sjsr_RuntimeLong().init___I__I(134217728, 0).$$amp__sjsr_RuntimeLong__sjsr_RuntimeLong(this.bitmap$0$1).equals__sjsr_RuntimeLong__Z($m_sjsr_RuntimeLong$().Zero__sjsr_RuntimeLong()) ? this.div$lzycompute__p1__Lscalatags_generic_TypedTag() : this.div$1)
 });
 $c_Lscalatags_JsDom$all$.prototype.a$lzycompute__p1__Lscalatags_generic_TypedTag = (function() {
   if (new $c_sjsr_RuntimeLong().init___I__I(268435456, 0).$$amp__sjsr_RuntimeLong__sjsr_RuntimeLong(this.bitmap$0$1).equals__sjsr_RuntimeLong__Z($m_sjsr_RuntimeLong$().Zero__sjsr_RuntimeLong())) {
@@ -11970,15 +12034,15 @@ $c_Lscalatags_JsDom$all$.prototype.a$lzycompute__p1__Lscalatags_generic_TypedTag
   };
   return this.a$1
 });
-$c_Lscalatags_JsDom$all$.prototype.div__Lscalatags_generic_TypedTag = (function() {
-  return (new $c_sjsr_RuntimeLong().init___I__I(134217728, 0).$$amp__sjsr_RuntimeLong__sjsr_RuntimeLong(this.bitmap$0$1).equals__sjsr_RuntimeLong__Z($m_sjsr_RuntimeLong$().Zero__sjsr_RuntimeLong()) ? this.div$lzycompute__p1__Lscalatags_generic_TypedTag() : this.div$1)
-});
 $c_Lscalatags_JsDom$all$.prototype.div$lzycompute__p1__Lscalatags_generic_TypedTag = (function() {
   if (new $c_sjsr_RuntimeLong().init___I__I(134217728, 0).$$amp__sjsr_RuntimeLong__sjsr_RuntimeLong(this.bitmap$0$1).equals__sjsr_RuntimeLong__Z($m_sjsr_RuntimeLong$().Zero__sjsr_RuntimeLong())) {
     this.div$1 = $s_Lscalatags_jsdom_Tags$class__div__Lscalatags_jsdom_Tags__Lscalatags_generic_TypedTag(this);
     this.bitmap$0$1 = new $c_sjsr_RuntimeLong().init___I__I(134217728, 0).$$bar__sjsr_RuntimeLong__sjsr_RuntimeLong(this.bitmap$0$1)
   };
   return this.div$1
+});
+$c_Lscalatags_JsDom$all$.prototype.id__Lscalatags_generic_Attr = (function() {
+  return (new $c_sjsr_RuntimeLong().init___I__I((-2147483648), 0).$$amp__sjsr_RuntimeLong__sjsr_RuntimeLong(this.bitmap$4$1).equals__sjsr_RuntimeLong__Z($m_sjsr_RuntimeLong$().Zero__sjsr_RuntimeLong()) ? this.id$lzycompute__p1__Lscalatags_generic_Attr() : this.id$1)
 });
 var $d_Lscalatags_JsDom$all$ = new $TypeData().initClass({
   Lscalatags_JsDom$all$: 0
@@ -14411,11 +14475,11 @@ $c_sci_WrappedString.prototype.length__I = (function() {
 $c_sci_WrappedString.prototype.seq__sc_Seq = (function() {
   return this
 });
-$c_sci_WrappedString.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
-  $s_sc_IndexedSeqOptimized$class__copyToArray__sc_IndexedSeqOptimized__O__I__I__V(this, xs, start, len)
-});
 $c_sci_WrappedString.prototype.hashCode__I = (function() {
   return $m_s_util_hashing_MurmurHash3$().seqHash__sc_Seq__I(this)
+});
+$c_sci_WrappedString.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
+  $s_sc_IndexedSeqOptimized$class__copyToArray__sc_IndexedSeqOptimized__O__I__I__V(this, xs, start, len)
 });
 $c_sci_WrappedString.prototype.init___T = (function(self) {
   this.self$4 = self;
@@ -15326,33 +15390,33 @@ $c_sjs_js_WrappedArray.prototype.foreach__F1__V = (function(f) {
 $c_sjs_js_WrappedArray.prototype.result__O = (function() {
   return this
 });
-$c_sjs_js_WrappedArray.prototype.seq__scm_Seq = (function() {
-  return this
-});
 $c_sjs_js_WrappedArray.prototype.iterator__sc_Iterator = (function() {
   return new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(this, 0, $uI(this.array$6.length))
+});
+$c_sjs_js_WrappedArray.prototype.seq__scm_Seq = (function() {
+  return this
 });
 $c_sjs_js_WrappedArray.prototype.sizeHintBounded__I__sc_TraversableLike__V = (function(size, boundingColl) {
   $s_scm_Builder$class__sizeHintBounded__scm_Builder__I__sc_TraversableLike__V(this, size, boundingColl)
 });
-$c_sjs_js_WrappedArray.prototype.seq__sc_Seq = (function() {
-  return this
-});
 $c_sjs_js_WrappedArray.prototype.length__I = (function() {
   return $uI(this.array$6.length)
+});
+$c_sjs_js_WrappedArray.prototype.seq__sc_Seq = (function() {
+  return this
 });
 $c_sjs_js_WrappedArray.prototype.$$plus$eq__O__scm_Builder = (function(elem) {
   this.array$6.push(elem);
   return this
+});
+$c_sjs_js_WrappedArray.prototype.hashCode__I = (function() {
+  return $m_s_util_hashing_MurmurHash3$().seqHash__sc_Seq__I(this)
 });
 $c_sjs_js_WrappedArray.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
   $s_sc_IndexedSeqOptimized$class__copyToArray__sc_IndexedSeqOptimized__O__I__I__V(this, xs, start, len)
 });
 $c_sjs_js_WrappedArray.prototype.sizeHint__I__V = (function(size) {
   /*<skip>*/
-});
-$c_sjs_js_WrappedArray.prototype.hashCode__I = (function() {
-  return $m_s_util_hashing_MurmurHash3$().seqHash__sc_Seq__I(this)
 });
 $c_sjs_js_WrappedArray.prototype.init___sjs_js_Array = (function(array) {
   this.array$6 = array;

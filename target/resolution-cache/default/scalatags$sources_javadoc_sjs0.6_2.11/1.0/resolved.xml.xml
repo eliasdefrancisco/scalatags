@@ -4,7 +4,7 @@
 		module="scalatags$sources_javadoc_sjs0.6_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160626145728"
+		publication="20160629145338"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -29,6 +29,9 @@
 			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scala-library" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
+		<dependency org="org.webjars" name="jquery" rev="2.1.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jquery" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
 		<dependency org="org.scala-js" name="scalajs-library_2.11" rev="0.6.9" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)" info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.9/">
 			<artifact name="scalajs-library_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scalajs-library_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
@@ -41,7 +44,11 @@
 			<artifact name="sourcecode_sjs0.6_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="sourcecode_sjs0.6_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.scala-js" name="scalajs-dom_sjs0.6_2.11" rev="0.8.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+		<dependency org="be.doeraene" name="scalajs-jquery_sjs0.6_2.11" rev="0.9.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="scalajs-jquery_sjs0.6_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scalajs-jquery_sjs0.6_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-js" name="scalajs-dom_sjs0.6_2.11" rev="0.9.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="scalajs-dom_sjs0.6_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scalajs-dom_sjs0.6_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
