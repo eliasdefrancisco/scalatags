@@ -2,6 +2,11 @@
 This example try to complete the scalatags official documentation with a very simple example which you can use on your computer localy and follow the official examples easily.
 I found lost myself when I tried to follow the official examples, I didn't find any clearly documentation about how I could run a simple Helloword from scratch, and this is why I'm publishing this now.
 
+## Run this helloword from remote:
+https://cdn.rawgit.com/eliasdefrancisco/scalatags/master/target/scala-2.11/scalatags.html
+or
+https://rawgit.com/eliasdefrancisco/scalatags/master/target/scala-2.11/scalatags.html
+
 ## What do you need to run this project on your machine?
 Only sbt 
 
